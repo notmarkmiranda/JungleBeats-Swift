@@ -11,8 +11,7 @@ class Node {
     var data: String
     var next_node: Node?
     
-    init(data: String, next_node: Node?){
+    init(data: String) {
         self.data = data
-        self.next_node = next_node
     }
 }

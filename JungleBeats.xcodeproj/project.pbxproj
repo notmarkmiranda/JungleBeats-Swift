@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA668A261E5A9C45007DCB0F /* linked_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA668A251E5A9C45007DCB0F /* linked_list.swift */; };
+		DA668A281E5A9CED007DCB0F /* linked_list_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA668A271E5A9CED007DCB0F /* linked_list_test.swift */; };
 		DA7DBBBD1D8113A1005C595A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBBC1D8113A1005C595A /* AppDelegate.swift */; };
 		DA7DBBBF1D8113A1005C595A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBBE1D8113A1005C595A /* ViewController.swift */; };
 		DA7DBBC21D8113A1005C595A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DBBC01D8113A1005C595A /* Main.storyboard */; };
 		DA7DBBC41D8113A1005C595A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7DBBC31D8113A1005C595A /* Assets.xcassets */; };
 		DA7DBBC71D8113A1005C595A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DBBC51D8113A1005C595A /* LaunchScreen.storyboard */; };
-		DA7DBBD21D8113A1005C595A /* JungleBeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBD11D8113A1005C595A /* JungleBeatsTests.swift */; };
+		DA7DBBD21D8113A1005C595A /* node_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBD11D8113A1005C595A /* node_test.swift */; };
 		DA7DBBDD1D8117AC005C595A /* node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBDC1D8117AC005C595A /* node.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA668A251E5A9C45007DCB0F /* linked_list.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linked_list.swift; sourceTree = "<group>"; };
+		DA668A271E5A9CED007DCB0F /* linked_list_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linked_list_test.swift; sourceTree = "<group>"; };
 		DA7DBBB91D8113A1005C595A /* JungleBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JungleBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7DBBBC1D8113A1005C595A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA7DBBBE1D8113A1005C595A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +39,7 @@
 		DA7DBBC61D8113A1005C595A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7DBBC81D8113A1005C595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7DBBCD1D8113A1005C595A /* JungleBeatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JungleBeatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA7DBBD11D8113A1005C595A /* JungleBeatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JungleBeatsTests.swift; sourceTree = "<group>"; };
+		DA7DBBD11D8113A1005C595A /* node_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = node_test.swift; sourceTree = "<group>"; };
 		DA7DBBD31D8113A1005C595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7DBBDC1D8117AC005C595A /* node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +90,7 @@
 				DA7DBBC51D8113A1005C595A /* LaunchScreen.storyboard */,
 				DA7DBBC81D8113A1005C595A /* Info.plist */,
 				DA7DBBDC1D8117AC005C595A /* node.swift */,
+				DA668A251E5A9C45007DCB0F /* linked_list.swift */,
 			);
 			path = JungleBeats;
 			sourceTree = "<group>";
@@ -93,8 +98,9 @@
 		DA7DBBD01D8113A1005C595A /* JungleBeatsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA7DBBD11D8113A1005C595A /* JungleBeatsTests.swift */,
+				DA7DBBD11D8113A1005C595A /* node_test.swift */,
 				DA7DBBD31D8113A1005C595A /* Info.plist */,
+				DA668A271E5A9CED007DCB0F /* linked_list_test.swift */,
 			);
 			path = JungleBeatsTests;
 			sourceTree = "<group>";
@@ -150,9 +156,11 @@
 					DA7DBBB81D8113A1005C595A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4XQSAD3UT9;
+						LastSwiftMigration = 0820;
 					};
 					DA7DBBCC1D8113A1005C595A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = DA7DBBB81D8113A1005C595A;
 					};
 				};
@@ -203,6 +211,7 @@
 			files = (
 				DA7DBBBF1D8113A1005C595A /* ViewController.swift in Sources */,
 				DA7DBBBD1D8113A1005C595A /* AppDelegate.swift in Sources */,
+				DA668A261E5A9C45007DCB0F /* linked_list.swift in Sources */,
 				DA7DBBDD1D8117AC005C595A /* node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7DBBD21D8113A1005C595A /* JungleBeatsTests.swift in Sources */,
+				DA668A281E5A9CED007DCB0F /* linked_list_test.swift in Sources */,
+				DA7DBBD21D8113A1005C595A /* node_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.markmiranda.JungleBeats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -355,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.markmiranda.JungleBeats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -366,6 +378,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.markmiranda.JungleBeatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JungleBeats.app/JungleBeats";
 			};
 			name = Debug;
@@ -378,6 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.markmiranda.JungleBeatsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JungleBeats.app/JungleBeats";
 			};
 			name = Release;
@@ -401,6 +415,7 @@
 				DA7DBBD81D8113A1005C595A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA7DBBD91D8113A1005C595A /* Build configuration list for PBXNativeTarget "JungleBeatsTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +424,7 @@
 				DA7DBBDB1D8113A1005C595A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
