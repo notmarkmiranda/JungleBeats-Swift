@@ -16,6 +16,8 @@
 		DA7DBBC71D8113A1005C595A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DBBC51D8113A1005C595A /* LaunchScreen.storyboard */; };
 		DA7DBBD21D8113A1005C595A /* node_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBD11D8113A1005C595A /* node_test.swift */; };
 		DA7DBBDD1D8117AC005C595A /* node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DBBDC1D8117AC005C595A /* node.swift */; };
+		DAE04F571E63CCCA00C66F53 /* jungle_beat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE04F561E63CCCA00C66F53 /* jungle_beat.swift */; };
+		DAE04F591E63CCDC00C66F53 /* jungle_beat_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE04F581E63CCDC00C66F53 /* jungle_beat_test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		DA7DBBD11D8113A1005C595A /* node_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = node_test.swift; sourceTree = "<group>"; };
 		DA7DBBD31D8113A1005C595A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7DBBDC1D8117AC005C595A /* node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = node.swift; sourceTree = "<group>"; };
+		DAE04F561E63CCCA00C66F53 /* jungle_beat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jungle_beat.swift; sourceTree = "<group>"; };
+		DAE04F581E63CCDC00C66F53 /* jungle_beat_test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jungle_beat_test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				DA7DBBC81D8113A1005C595A /* Info.plist */,
 				DA7DBBDC1D8117AC005C595A /* node.swift */,
 				DA668A251E5A9C45007DCB0F /* linked_list.swift */,
+				DAE04F561E63CCCA00C66F53 /* jungle_beat.swift */,
 			);
 			path = JungleBeats;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				DA7DBBD11D8113A1005C595A /* node_test.swift */,
 				DA7DBBD31D8113A1005C595A /* Info.plist */,
 				DA668A271E5A9CED007DCB0F /* linked_list_test.swift */,
+				DAE04F581E63CCDC00C66F53 /* jungle_beat_test.swift */,
 			);
 			path = JungleBeatsTests;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 				DA7DBBBF1D8113A1005C595A /* ViewController.swift in Sources */,
 				DA7DBBBD1D8113A1005C595A /* AppDelegate.swift in Sources */,
 				DA668A261E5A9C45007DCB0F /* linked_list.swift in Sources */,
+				DAE04F571E63CCCA00C66F53 /* jungle_beat.swift in Sources */,
 				DA7DBBDD1D8117AC005C595A /* node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA668A281E5A9CED007DCB0F /* linked_list_test.swift in Sources */,
+				DAE04F591E63CCDC00C66F53 /* jungle_beat_test.swift in Sources */,
 				DA7DBBD21D8113A1005C595A /* node_test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
